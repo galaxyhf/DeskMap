@@ -1,12 +1,14 @@
-import './App.css'
+import { QueryClientProvider, QueryClient } from '@tanstack/react-query';
+import { Toaster } from 'sonner';
+import { AtendimentosPage } from '@/pages/AtendimentosPage';
 
-function App() {
+const queryClient = new QueryClient();
 
+export default function App() {
   return (
-    <>
-      
-    </>
-  )
+    <QueryClientProvider client={queryClient}>
+      <AtendimentosPage />
+      <Toaster position="top-right" richColors />
+    </QueryClientProvider>
+  );
 }
-
-export default App
