@@ -8,7 +8,7 @@ export default function App() {
   return (
     <QueryClientProvider client={queryClient}>
       <AtendimentosPage />
-      <Toaster position="top-right" richColors />
+      <Toaster position="top-center" richColors />
     </QueryClientProvider>
   );
 }

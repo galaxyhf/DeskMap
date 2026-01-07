@@ -340,6 +340,7 @@ Use-os para documentar quais variáveis são necessárias, mas sem valores reais
 ## 🔄 Status da Aplicação
 
 - Health check endpoint: `GET /health`
+- Swagger em: /docs
 - Sincronização automática do banco ao iniciar
 - Logs informativos no console
 
@@ -353,4 +354,4 @@ Para reportar bugs ou sugerir melhorias, abra uma issue no repositório.
 
 ---
 
-**Desenvolvido com ❤️ - 2025**
+**Desenvolvido por Caio Silva - 2025**
